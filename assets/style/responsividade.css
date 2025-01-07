@@ -1,0 +1,35 @@
+@media (max-width: 800px) {
+  .navbar-links {
+    display: none;
+  }
+  .navbar {
+    gap: 10px;
+    padding-top: 5px;
+  }
+  .navbar-logo {
+    order: 2;
+  }
+  .bar {
+    display: flex;
+    order: 1;
+  }
+  .navbar-cart-profile-container {
+    gap: 5px;
+  }
+  header {
+    width: 100%;
+  }
+  .header-container {
+    border: none;
+    padding: 15px;
+    /* border: 2px solid red; */
+  }
+}
+@media (max-width: 500px) {
+  .navbar-profile {
+    width: 32px;
+    height: 32px;
+  }
+  
+  
+}
